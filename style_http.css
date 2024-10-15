@@ -1,0 +1,43 @@
+ body {
+        font-family:Verdana;
+      }
+      h1 { 
+        color: #1BB2E0;
+		text-align:center;
+		font-family:Verdana;
+      }
+	  h2{color:green;}
+      img, form {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+	  h4{
+		color:rgb(0,100,200);
+		background-color:silver ;
+		font-family:Calibri;
+		font-size:20px;
+		text-align:center;
+		border-top:2px solid blue;
+		border-bottom:2px solid blue;
+		}
+      code {
+        padding: 2px 2px;
+        color: #267988;
+        background-color: #f9f2f4;
+      }
+	  .reponse{
+		  font-family:Calibri;
+		  font-size:20px;
+		  font-style:italic;
+		  color:rgb(108,52,131);
+	  }
+	  .modif{
+		  font-family:Calibri;
+		  font-size:20px;
+		  font-style:italic;
+		  color:rgb(230,126,34);
+	  };
+	  

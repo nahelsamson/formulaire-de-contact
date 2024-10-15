@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>Formulaire de contact</title>
+	<link rel="stylesheet" href="monstyle_http.css"/>
+    
+  </head>
+
+  <body>
+    <header>
+	<h1>Formulaire de contact</h1>
+    </header>
+	<form action="http://10.73.39.50/vermeersch/formulaire_traitement.php" method="post">
+		Nom :<br/><input type="text" name="nom"><br/><br/>
+		Prénom :<br/><input type="text" name="prenom"><br/><br/>
+		mot de passe :<br/><input type="password" name="motdp"><br/>
+		Votre question :<br/><textarea rows="5" cols="40" name="question"></textarea><br/>
+		Quel sport pratiquez-vous ?<br/>
+		<select name="choix_sport[]" ">
+	
+		<option value="tennis">tennis</option>
+		<option value="danse">danse</option>
+		<option value="vélo">vélo</option> 
+		<option value="football">football</option> 
+		<option value="autre">Autre</option>
+		</select>
+		<br/>
+	
+		Quel fruits aimez-vous :<br/>
+		<form>
+			<input type="checkbox" id="fraise" name="choix_fruits[]" value="fraise">
+			<label for="fraise">Fraise</label><br>
+			<input type="checkbox" id="banane" name="choix_fruits[]" value="banane">
+			<label for="banane">Banane</label><br>
+			<input type="checkbox" id="mangue" name="choix_fruits[]" value="mangue">
+			<label for="mangue">Mangue</label><br>
+			<input type="checkbox" id="framboise" name="choix_fruits[]" value="framboise">
+			<label for="framboise">Framboise</label><br><br>
+		</form> 
+		<br/>
+		Dans quel type d'établissement êtes-vous ? :<br/>
+		<form>
+ 			<input type="radio" id="college" value="college" name="etabli">
+ 			<label for="college">collège</label><br>
+  			<input type="radio" id="lycee" value="lycee" name="etabli">
+  			<label for="lycee">lycée</label><br>
+  			<input type="radio" id="fac" value="fac" name="etabli">
+  			<label for="fac">fac</label><br>
+			<input type="radio" id="iut" value="iut" name="etabli">
+  			<label for="iut">IUT</label><br>
+			<input type="radio" id="autre" value="autre" name="etabli">
+  			<label for="autre">Autre</label><br>
+	<input type="submit" value="Valider">
+		</form> 
+		<br/>
+</body>
+</html>	
+	
